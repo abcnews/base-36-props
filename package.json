@@ -1,6 +1,6 @@
 {
   "name": "@abcnews/base-36-props",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Tools for encoding / decoding JavaScript objects to / from base36 strings",
   "license": "MIT",
   "author": "Australian Broadcasting Corporation",
