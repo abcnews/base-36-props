@@ -66,6 +66,7 @@
   "dependencies": {
     "base-x": "^3.0.8",
     "buffer": "^5.5.0",
+    "sade": "^1.7.3",
     "text-encoding": "^0.7.0"
   }
 }
