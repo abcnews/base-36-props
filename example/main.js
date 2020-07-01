@@ -1,3 +1,4 @@
+import 'core-js';
 import { encode, decode } from '../dist/base-36-props.esm.js';
 
 window.b36p = { encode, decode };
