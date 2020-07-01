@@ -46,8 +46,10 @@
   "publishConfig": {
     "access": "public"
   },
+  "browserslist": "> 0.25%, not dead",
   "devDependencies": {
     "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.10.4",
     "@types/jest": "^24.0.21",
     "husky": "^3.0.9",
     "install": "^0.13.0",
@@ -66,6 +68,7 @@
     "@types/fast-text-encoding": "^1.0.1",
     "base-x": "^3.0.8",
     "buffer": "^5.5.0",
+    "core-js": "^3.6.5",
     "fast-text-encoding": "^1.0.3",
     "is-plain-object": "^3.0.0",
     "sade": "^1.7.3"
