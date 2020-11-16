@@ -18,6 +18,6 @@ export function encode(props: Object): string {
   );
 }
 
-export function decode(base36string: string): Object {
+export function decode<T extends Object>(base36string: string): T {
   return JSON.parse(base36.decode(base36string).toString());
 }

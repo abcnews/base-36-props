@@ -30,7 +30,8 @@
     "lint": "tsdx lint src",
     "example": "npm run build && rollup -c",
     "prepublishOnly": "npm run build",
-    "release": "np"
+    "release": "np",
+    "test": "tsdx test"
   },
   "husky": {
     "hooks": {
