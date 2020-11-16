@@ -1,7 +1,7 @@
 import 'fast-text-encoding';
 import baseX from 'base-x';
 import { Buffer } from 'buffer/';
-import isPlainObject from 'is-plain-object';
+import { isPlainObject } from 'is-plain-object';
 
 const BASE_36_CHARSET = '0123456789abcdefghijklmnopqrstuvwxyz';
 const ERROR_NOT_PLAIN_OBJECT = 'props is not a plain object';
@@ -18,6 +18,6 @@ export function encode(props: Object): string {
   );
 }
 
-export function decode(base36string: string): Object {
+export function decode<T extends Object>(base36string: string): T {
   return JSON.parse(base36.decode(base36string).toString());
 }
