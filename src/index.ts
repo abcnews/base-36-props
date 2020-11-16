@@ -1,7 +1,7 @@
 import 'fast-text-encoding';
 import baseX from 'base-x';
 import { Buffer } from 'buffer/';
-import isPlainObject from 'is-plain-object';
+import { isPlainObject } from 'is-plain-object';
 
 const BASE_36_CHARSET = '0123456789abcdefghijklmnopqrstuvwxyz';
 const ERROR_NOT_PLAIN_OBJECT = 'props is not a plain object';
