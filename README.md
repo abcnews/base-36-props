@@ -42,3 +42,7 @@ npm run example
 ```
 
 ...then open the console in the browser window that opens, and try out `b36p.encode()` and `b36p.decode()`.
+
+## Hosted tool
+
+A standalone web-based converter is also available [here](https://www.abc.net.au/res/sites/news-projects/base-36-props-converter/1.0.0/).
